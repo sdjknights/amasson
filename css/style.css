@@ -1,0 +1,273 @@
+:root {
+	--dark: #1F0052;
+	--med: #2F007D;
+	--light: #fff;
+}
+
+body {
+	background-color: var(--light);
+	color: var(--dark);
+	font-family: 'Lato', sans-serif;
+}
+
+
+/*Navbar*/
+
+.myNav {
+	background-color: var(--dark);
+	justify-content: space-between;
+	align-items: center;
+	color: var(--light);
+	border-bottom: 1px white solid;
+	padding-right: 0px;
+	min-height: 65px;
+}
+
+.myNav a {
+	color: var(--light);
+}
+
+/*Brand*/
+
+.topL {
+	width:137px;
+	max-width: 137px;
+	min-width: 137px;
+	margin-left: 0px;
+	margin-right: 9px;
+}
+
+.navbar-brand {
+	margin-right: 0px;
+}
+
+@media only screen and (max-width: 645px) {
+	.topL {
+		width:150px;
+	}
+}
+
+/*@media only screen and (max-width: 486px) {
+	.topL {
+		width:40px;
+	}
+}
+*/
+/*Search Form*/
+
+.topM {
+	width: 100%;
+}
+
+@media only screen and (max-width: 993px) {
+	.topM {
+		width:60%;
+		float:left;
+	}
+}
+
+@media only screen and (max-width: 675px) {
+	.topM {
+		width:57%;
+		float:left;
+	}
+}
+
+@media only screen and (max-width: 486px) {
+	.topM {
+		width:40%;
+	}
+}
+
+.topMForm {
+	width:94%;
+	margin-right: 0px;
+}
+
+@media only screen and (max-width:1334px) {
+	.topMForm {
+	width:80%;
+	}
+}
+
+.submitBtn {
+	height:30px;
+	width: 30px;
+	align-content: center;
+	padding: 0px 0px 4px 0px;
+}
+
+/*Menu Items*/
+
+.topR {
+	min-width: 450px;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+
+.myDropDown {
+	/*min-width: 137px;*/
+	padding: 4px 15px;
+}
+
+/*.myMenu {
+	align-items: center;
+	vertical-align: center;
+}*/
+
+@media only screen and (max-width: 991px){
+	.topR {
+		margin-left: 16px;
+	}
+}
+
+.topRLight {
+	font-weight: 100;
+	justify-content: center;
+}
+
+.topRBold {
+	font-weight: 900;
+	justify-content: center;
+	text-align: center;
+	float:left;
+}
+
+@media only screen and (max-width: 991px){
+	.topRBold {
+		font-weight: 900;
+		justify-content: center;
+		text-align: center;
+		float:none;
+	}
+}
+
+.topR button {
+	background-color: var(--dark);
+	border: none;
+	text-align: left;
+}
+
+.topR button:hover {
+	background-color: var(--med);
+	border: 0px;
+}
+
+.topR .dropdown-menu, .topR .dropdown-menu a {
+	color: var(--dark);
+	background-color: var(--light);
+}
+
+.topR .dropdown-menu a:hover{
+	background-color: var(--dark);
+	color: var(--light);
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+	background-color: var(--med);
+	border:none;
+	color: var(--light);
+}
+
+.myNav .navbar-toggler {
+	right:0px;
+	top: 0px;
+	color: var(--light);
+}
+
+/*Nav 2*/
+
+.nav2 {
+	background-color: var(--med);
+	height:50px;
+	color: var(--light);
+	justify-content: space-around;
+}
+
+.nav2 ul {
+	list-style-type: none;
+	height:50px;
+	overflow: hidden;
+	justify-content: space-around;
+}
+
+.nav2 li {
+  float: left;
+  padding: 11px 0px;
+}
+
+.nav2 li a {
+  display: all;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav2 li a:hover {
+	background-color: var(--dark);
+	border-radius: 50px
+}
+
+div .navDeliver {
+	white-space: nowrap; /* Constrain to one line */
+	overflow: hidden; /* Constrain to one line*/
+	width:137px;
+	max-width: 137px;
+	min-width: 137px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/*@media only screen and (max-width: 1640px){
+	.navLinks {
+		max-width: 83%;
+	}
+}*/
+
+.mainContent {
+	height:700px;
+	/*width: 80%;*/
+	background: rgb(95,1,250);
+	background: linear-gradient(0deg, rgba(95,1,250,0) 0%, rgba(96,0,255,0.2) 100%);
+	padding: 0px;
+}
+
+@media (max-width: 767.98px) {
+	.mainContent {
+	width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	.mainContent {
+	width: 80%;
+	padding: 0px 30px;
+	}
+}
+
+.carousel-item {
+	height: 250px;
+}
+
+.mainContent .card {
+	margin: 10px;
+}
+
+.mainContent .card img {
+	max-height: 250px;
+}
+
+.btnBuy {
+	background-color: var(--med);
+	color: var(--light);
+	border: 2px solid var(--light);
+	border-radius: 15px;
+}
+
+.btnBuy:hover {
+	background-color: var(--light);
+	color: var(--dark);
+	border: 2px solid var(--med);
+	border-radius: 15px;
+}
