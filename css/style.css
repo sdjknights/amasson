@@ -47,12 +47,12 @@ body {
 	}
 }
 
-/*@media only screen and (max-width: 486px) {
+/*@media only screen and (max-width: 490px) {
 	.topL {
-		width:40px;
+		width:20px;
 	}
-}
-*/
+}*/
+
 /*Search Form*/
 
 .topM {
@@ -73,9 +73,9 @@ body {
 	}
 }
 
-@media only screen and (max-width: 486px) {
+@media only screen and (max-width: 490px) {
 	.topM {
-		width:40%;
+		width:30%;
 	}
 }
 
@@ -87,6 +87,12 @@ body {
 @media only screen and (max-width:1334px) {
 	.topMForm {
 	width:80%;
+	}
+}
+
+@media only screen and (max-width:490px) {
+	.topMForm {
+	width:60%;
 	}
 }
 
@@ -247,6 +253,7 @@ div .navDeliver {
 }
 
 .carousel-item {
+	padding-top: 25px;
 	height: 250px;
 }
 
